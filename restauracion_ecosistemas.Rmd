@@ -1,11 +1,21 @@
 ---
-title: "Projeto de Restauracion de Ecosistemas"
+title: "Projeto de Restauracion de Ecosistemas TESTE"
 author: "Toa Quindi"
 date: "`r Sys.Date()`"
 output:
-  html_document: default
-  pdf_document: default
-  word_document: default
+  html_document:
+    df_print: paged
+    toc: true # Ativa o sumário (Table of Contents)
+    toc_depth: 3 # Define até qual nível de cabeçalho o sumário deve ir (e.g., ###)
+    number_sections: true # Ativa a numeração automática das seções (e.g., 1, 1.1, 1.1.1)
+  pdf_document:
+    toc: true
+    toc_depth: 3
+    number_sections: true
+  word_document:
+    toc: true
+    toc_depth: 3
+    number_sections: true    
 ---
 
 ```{r setup, include=FALSE}
@@ -21,18 +31,18 @@ Proyecto desarrollado para el modulo Fluxo de trabalho reproductivel em R, dicta
 
 Criar uma estructura de trabalho de base para pesquisa de restauraçao de ecossitemas aplicado en la áreas protegidas de la sierra sur de Equador.
  
-## Objetivos especificos
+### Objetivos especificos
 
 Elaborar con calma.
 
 ## Tarefas do trabalho
 
-- Criar repositorio em Github (  )
+- Criar repositorio em Github (ok)
 - Criar planilha con dados simulados (excel) (ok)
-- Criar planilha con dados simulados (Google sheets) (  )
+- Criar planilha con dados simulados (Google sheets) (ok)
 - Criar dados históticos simulados del año 2000 (  )
-- Conectar la planilha de datos con Github (  )
-- Conectar repositorio e planilha com Rstudio (  )
+- Conectar la planilha de datos con Github (ok)
+- Conectar repositorio e planilha com Rstudio (ok)
 - Criar relatorio Rmarkdown (ok) 
 - Checar impressao de relatorio em html (ok)
 - Instalar MacTeX on macOS - https://tug.org/mactex/ (  )
